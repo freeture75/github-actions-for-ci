@@ -19,7 +19,7 @@ jobs:
           path: public/
 
   test:
-
+    need: build
     runs-on: ubuntu-latest
 
     strategy:
